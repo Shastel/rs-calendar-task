@@ -36,6 +36,7 @@ defmodule App.Mixfile do
      {:postgrex, ">= 0.11.0"},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
+     {:cors_plug, "~> 1.2"},
      {:mongodb_ecto, github: "michalmuskala/mongodb_ecto"},
      {:ecto, "~> 1.1.9", override: true}]
   end

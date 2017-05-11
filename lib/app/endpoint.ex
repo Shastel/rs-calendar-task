@@ -16,5 +16,7 @@ defmodule App.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
 
+  plug CORSPlug, [origin: "*"]
+
   plug App.Router
 end
