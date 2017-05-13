@@ -21,5 +21,3 @@ mongorestore --collection trainers --db rs-calendar dump/
   * Start app with `mix phoenix.server`
 
 Now application is available at [`localhost:4000`](http://localhost:4000).
-
-Any contribution are welcome
